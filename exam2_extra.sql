@@ -1,4 +1,4 @@
---exam2, link to data:https://lagunita.stanford.edu/c4x/DB/SQL/asset/socialdata.html
+--exam2 extra, link to data:https://lagunita.stanford.edu/c4x/DB/SQL/asset/socialdata.html
 --data sets: 
 --Highschooler ( ID, name, grade ) 
 --English: There is a high school student with unique ID and a given first name in a certain grade. 
