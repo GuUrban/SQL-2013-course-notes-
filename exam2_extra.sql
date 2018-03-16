@@ -1,13 +1,13 @@
-exam2, link to data:https://lagunita.stanford.edu/c4x/DB/SQL/asset/socialdata.html
-data sets: 
-Highschooler ( ID, name, grade ) 
-English: There is a high school student with unique ID and a given first name in a certain grade. 
+--exam2, link to data:https://lagunita.stanford.edu/c4x/DB/SQL/asset/socialdata.html
+--data sets: 
+--Highschooler ( ID, name, grade ) 
+--English: There is a high school student with unique ID and a given first name in a certain grade. 
 
-Friend ( ID1, ID2 ) 
-English: The student with ID1 is friends with the student with ID2. Friendship is mutual, so if (123, 456) is in the Friend table, so is (456, 123). 
+--Friend ( ID1, ID2 ) 
+--English: The student with ID1 is friends with the student with ID2. Friendship is mutual, so if (123, 456) is in the Friend table, so is (456, 123). 
 
-Likes ( ID1, ID2 ) 
-English: The student with ID1 likes the student with ID2. Liking someone is not necessarily mutual, so if (123, 456) is in the Likes table, there is no guarantee that (456, 123) is also present. 
+--Likes ( ID1, ID2 ) 
+--English: The student with ID1 likes the student with ID2. Liking someone is not necessarily mutual, so if (123, 456) is in the Likes table, there is no guarantee that (456, 123) is also present. 
 
 --Q1: For every situation where student A likes student B, but student B likes a different student C, return the names and grades of A, B, and C. 
 --Answer: 
