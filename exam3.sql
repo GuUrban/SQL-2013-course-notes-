@@ -1,13 +1,13 @@
-Exam3, data link: https://lagunita.stanford.edu/c4x/DB/SQL/asset/moviedata.html
+--Exam3, data link: https://lagunita.stanford.edu/c4x/DB/SQL/asset/moviedata.html
 
-Movie ( mID, title, year, director ) 
-English: There is a movie with ID number mID, a title, a release year, and a director. 
+--Movie ( mID, title, year, director ) 
+--English: There is a movie with ID number mID, a title, a release year, and a director. 
 
-Reviewer ( rID, name ) 
-English: The reviewer with ID number rID has a certain name. 
+--Reviewer ( rID, name ) 
+--English: The reviewer with ID number rID has a certain name. 
 
-Rating ( rID, mID, stars, ratingDate ) 
-English: The reviewer rID gave the movie mID a number of stars rating (1-5) on a certain ratingDate. 
+--Rating ( rID, mID, stars, ratingDate ) 
+--English: The reviewer rID gave the movie mID a number of stars rating (1-5) on a certain ratingDate. 
 
 
 --Q1 Add the reviewer Roger Ebert to your database, with an rID of 209. 
